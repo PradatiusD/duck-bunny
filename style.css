@@ -2080,6 +2080,19 @@ ul.one-column li {
 Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
+@media screen and (min-width:768px) and (max-width:1270px) {
+
+	.site-inner {
+		width: 66%;
+		overflow: hidden;
+	}
+
+	.full-width-content .content {
+		width: 100%;
+	}
+		
+}
+
 @media only screen and (max-width: 768px) {
 
 	.full-width-content .content,
